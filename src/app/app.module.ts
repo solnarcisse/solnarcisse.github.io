@@ -12,6 +12,9 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { NavComponent } from './nav/nav.component';
+import { ContentComponent } from './content/content.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -34,7 +37,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    NavComponent,
+    ContentComponent,
+    FooterComponent
   ],
   bootstrap: [
     AppComponent
